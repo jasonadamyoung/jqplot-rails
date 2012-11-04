@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Outfielding::Jqplot::Rails::VERSION
   gem.authors       = ["Jason Adam Young"]
   gem.email         = ["jasonadamyoung@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{jqplot packaged for the Rails 3.1+ asset pipeline}
+  gem.summary       = %q{jqplot packaged for the Rails 3.1+ asset pipeline}
+  gem.homepage      = "https://github.com/outfielding/jqplot-rails"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
