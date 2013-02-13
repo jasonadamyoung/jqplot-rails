@@ -36,7 +36,7 @@ The file naming is a little strange, but I'm basically just copying the distribu
 
 ## Versioning
 
-Unless otherwise noted, the outfielding-jqplot-rails version should match the jqplot distribution version included.
+Unless otherwise noted, the outfielding-jqplot-rails version should match the jqplot distribution version included (as of 1.0.5, i'm leaving off the release revision, at least for now)
 
 ## LICENSE
 
