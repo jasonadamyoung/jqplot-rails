@@ -1,9 +1,9 @@
-﻿/**
+/**
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -102,7 +102,7 @@
         // spacing between funnel sections in pixels.
         this.sectionMargin = 6;
         // prop: fill
-        // true or false, wether to fill the areas.
+        // true or false, whether to fill the areas.
         this.fill = true;
         // prop: shadowOffset
         // offset of the shadow from the area and offset of 

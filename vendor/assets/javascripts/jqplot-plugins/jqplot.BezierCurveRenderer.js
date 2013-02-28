@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -289,6 +289,7 @@
     function preInit(target, data, options) {
         options = options || {};
         options.axesDefaults = $.extend(true, {pad:0}, options.axesDefaults);
+        options.seriesDefaults = options.seriesDefaults || {};
         options.legend = $.extend(true, {placement:'outside'}, options.legend);
         // only set these if there is a pie series
         var setopts = false;

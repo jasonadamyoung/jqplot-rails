@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -107,7 +107,7 @@
             // color of the line
             color: '#666666',
             // prop: shadow
-            // wether or not to draw a shadow on the line
+            // whether or not to draw a shadow on the line
             shadow: true,
             // prop: shadowAngle
             // Shadow angle in degrees

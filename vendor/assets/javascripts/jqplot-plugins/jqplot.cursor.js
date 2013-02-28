@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -42,7 +42,7 @@
         this.style = 'crosshair';
         this.previousCursor = 'auto';
         // prop: show
-        // wether to show the cursor or not.
+        // whether to show the cursor or not.
         this.show = $.jqplot.config.enablePlugins;
         // prop: showTooltip
         // show a cursor position tooltip.  Location of the tooltip

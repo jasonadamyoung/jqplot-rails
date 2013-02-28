@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -60,7 +60,7 @@
         // Either 'exponential', 'exp', or 'linear'.
         this.type = 'linear';
         // prop: shadow
-        // true or false, wether or not to show the shadow.
+        // true or false, whether or not to show the shadow.
         this.shadow = true;
         // prop: markerRenderer
         // Renderer to use to draw markers on the line.

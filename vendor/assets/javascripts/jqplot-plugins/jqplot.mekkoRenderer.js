@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -33,7 +33,7 @@
      * Class: $.jqplot.MekkoRenderer
      * Draws a Mekko style chart which shows 3 dimensional data on a 2 dimensional graph.
      * the <$.jqplot.MekkoAxisRenderer> should be used with mekko charts.  The mekko renderer
-     * overrides the default legend renderer with it's own $.jqplot.MekkoLegendRenderer
+     * overrides the default legend renderer with its own $.jqplot.MekkoLegendRenderer
      * which allows more flexibility to specify number of rows and columns in the legend.
      * 
      * Data is specified per bar in the chart.  You can specify data as an array of y values, or as 

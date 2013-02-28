@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -65,7 +65,7 @@
      * 
      */
     $.jqplot.OHLCRenderer = function(){
-        // subclass line renderer to make use of some of it's methods.
+        // subclass line renderer to make use of some of its methods.
         $.jqplot.LineRenderer.call(this);
         // prop: candleStick
         // true to render chart as candleStick.

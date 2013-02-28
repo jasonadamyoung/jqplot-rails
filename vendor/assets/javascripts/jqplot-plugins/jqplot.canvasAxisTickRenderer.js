@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -49,10 +49,10 @@
         // tick mark on the axis.  One of 'inside', 'outside', 'cross', '' or null.
         this.mark = 'outside';
         // prop: showMark
-        // wether or not to show the mark on the axis.
+        // whether or not to show the mark on the axis.
         this.showMark = true;
         // prop: showGridline
-        // wether or not to draw the gridline on the grid at this tick.
+        // whether or not to draw the gridline on the grid at this tick.
         this.showGridline = true;
         // prop: isMinorTick
         // if this is a minor tick.
@@ -65,10 +65,10 @@
         // will be stoked above and below axis, so total length will be twice this.
         this.markSize = 4;
         // prop: show
-        // wether or not to show the tick (mark and label).
+        // whether or not to show the tick (mark and label).
         this.show = true;
         // prop: showLabel
-        // wether or not to show the label.
+        // whether or not to show the label.
         this.showLabel = true;
         // prop: labelPosition
         // 'auto', 'start', 'middle' or 'end'.
@@ -178,6 +178,16 @@
             var h = tr.getHeight(ctx);
             var w = Math.abs(Math.cos(tr.angle)*h) + Math.abs(Math.sin(tr.angle)*l);
             return w;
+        }
+    };
+
+    // return top.
+    $.jqplot.CanvasAxisTickRenderer.prototype.getTop = function(ctx) {
+        if (this._elem) {
+         return this._elem.position().top;
+        }
+        else {
+            return null;
         }
     };
     

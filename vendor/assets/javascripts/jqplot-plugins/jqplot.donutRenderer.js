@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -101,7 +101,7 @@
         // null will compute ringMargin based on sliceMargin.
         this.ringMargin = null;
         // prop: fill
-        // true or false, wether to fil the slices.
+        // true or false, whether to fil the slices.
         this.fill = true;
         // prop: shadowOffset
         // offset of the shadow from the slice and offset of 

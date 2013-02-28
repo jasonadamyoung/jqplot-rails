@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.5
- * Revision: 1122+
+ * Version: 1.0.7
+ * Revision: 1224
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -44,7 +44,7 @@
      * To disable the tooltip, set "showTooltip" to false.
      * 
      * You can control what data is displayed in the tooltip with various
-     * options.  The "tooltipAxes" option controls wether the x, y or both
+     * options.  The "tooltipAxes" option controls whether the x, y or both
      * data values are displayed.
      * 
      * Some chart types (e.g. hi-low-close) have more than one y value per
