@@ -1,3 +1,8 @@
+2013-02-27  Jason Young <jay@outfielding.net>
+  
+  * Includes jqplot 1.0.7 (r1224)
+  * adds in the changes.txt (and copyright.txt and updates the README.txt) from jqplot 1.0.7
+
 2013-02-12  Jason Young <jay@outfielding.net>
 
   * Includes jqplot 1.0.5 (r1122)
