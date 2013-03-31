@@ -1,3 +1,7 @@
+2013-03-30  Jason Young <jay@outfielding.net>
+  
+  * Includes jqplot 1.0.8 (r1250)
+
 2013-02-27  Jason Young <jay@outfielding.net>
   
   * Includes jqplot 1.0.7 (r1224)

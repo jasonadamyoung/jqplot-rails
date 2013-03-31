@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.7
- * Revision: 1224
+ * Version: 1.0.8
+ * Revision: 1250
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -161,10 +161,10 @@
             
             // perform some checks
             if (this.min != null && this.min <= 0) {
-                throw('log axis minimum must be greater than 0');
+                throw new Error("Log axis minimum must be greater than 0");
             }
             if (this.max != null && this.max <= 0) {
-                throw('log axis maximum must be greater than 0');
+                throw new Error("Log axis maximum must be greater than 0");
             }
 
             function findCeil (val) {

@@ -2,8 +2,8 @@
  * jqPlot
  * Pure JavaScript plotting plugin using jQuery
  *
- * Version: 1.0.7
- * Revision: 1224
+ * Version: 1.0.8
+ * Revision: 1250
  *
  * Copyright (c) 2009-2013 Chris Leonello
  * jqPlot is currently available for use in all personal or commercial projects 
@@ -413,13 +413,12 @@
                 // will be center of hub.
                 this._center = [(cw-trans*offx)/2 + trans * offx, (ch-trans*offy)/2 + trans * offy];
             }
+            if (this._labelElem && this.labelPosition == 'bottom') {
+                this._center[1] -= this._labelElem.outerHeight(true);
+            }
+            
         }
 
-        
-        if (this._labelElem && this.labelPosition == 'bottom') {
-            this._center[1] -= this._labelElem.outerHeight(true);
-        }
-        
         this._radius = this.diameter/2;
         
         this.tickSpacing = 6000/this.diameter;
