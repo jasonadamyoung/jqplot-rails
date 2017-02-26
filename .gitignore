@@ -16,4 +16,6 @@ test/tmp
 test/version_tmp
 tmp
 .rvmrc
+.ruby-gemset
+.ruby-version
 encoding_check.rb
