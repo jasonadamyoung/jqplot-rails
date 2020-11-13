@@ -1,3 +1,6 @@
+### DEPRECATED 
+
+
 # outfielding-jqplot-rails
 
 This is a bundling of [jqplot](http://www.jqplot.com/) for the Rails 3.1+ asset pipeline. It's similar in idea to Matt House's [jqplot-rails](https://github.com/eightbitraptor/jqplot-rails) project, but I needed something that would keep pace with jqplot's releases (well, at least on *my* schedule, whatever that actually turns out to be).
